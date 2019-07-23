@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>sol</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=	"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="simulation.css">
+  <script type="text/javascript" src="simulation.js"></script>
+</head>
+
+<body>
+  <div class="container"> <!-- start of the container -->
+
+      <!-- First row consists of title of the experiment, instruction box image and a div (where,
+      the instructions to perform the experiment will be displayed). -->
+  		<div class="row">
+        		<div class="col-sm-12">
+           		    <h3>Preparation of Sols</h3>
+                  <img id="instruction_box" src="instruction_box.png">
+                  <div id="instruction"></div>
+      	    </div>
+      </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <!-- end of the first row -->
+
+      <!--second row consists of table with magnetic stirrer & heater instrument, images( instruments to
+      perform the experiment ) and the reset button to reload the page. Initially all the images are hidden
+      except the beaker image. -->
+      <div class="row" >
+            <div class="col-sm-12">
+                  <img id="beaker" src="beaker.png">
+                  <img id="arrow_beaker" src="arrow_beaker.png">
+                  <img id="arrow_pipette" src="arrow_pipette.png">
+                  <img id="arrow_pipette1" src="arrow_pipette1.png">
+                  <img id="arrow_pipette2" src="arrow_pipette2.png">
+                  <img id="pipette" src="pipette.png">
+                  <img id="drop" src="drop.png">
+                  <img id="arrow_flask" src="arrow_flask.png">
+                  <img id="conical_flask" src="conical_flask.png">
+                  <img id="arrow_bead" src="arrow_bead.png">
+                  <img id="magnetic_bead" src="magnetic_bead.png">
+                  <img id="powder" src="powder.png">
+                  <img id="arrow_powder" src="arrow_powder.png">
+                  <img id="arrow_glassrod" src="arrow_glassrod.png">
+                  <img id="instructiontag" src="instruction_tag.png">
+                  <img id="instructiontag1" src="instruction_tag1.png">
+                  <img id="spoon" src="spoon.png">
+                  <img id="red_powder" src="red_powder.png">
+                  <img id="glassrod" src="glass_rod.png">
+                  <img id="watertag" src="water_tag.png">
+                  <img id="arrow_heater" src="arrow_heater.png">
+                  <img id="arrow_stirrer" src="arrow_stirrer.png">
+                  <img id="heater" src="heater.png">
+                  <img id="heater_btn" src="transparent.png">
+                  <img id="stirrer_btn" src="transparent.png">
+                  <img id="power_btn" src="transparent.png">
+                  <img id="grey_solution" src="greysolution.png">
+                  <img id="red_solution" src="red_solution.png">
+                  <img id="flask" src="flask.png">
+                  <img id="stir_sol" src="stir_sol.gif">
+                  <img id="water_boil" src="water_boil.gif">
+                  <p id="solution_name1"> Conc. FeCl<sub>3</sub> </p>
+                  <p id="solution_name2"> Fe(OH)<sub>3</sub>  colloid</p>
+                  <div id="final_solution"></div>
+                  <img id="table" src="table.png">
+                  <button id="reset">Reset Experiment</button>
+            </div>
+      </div>
+      <!-- end of the second row -->
+
+  </div> <!-- end of the container -->
+</body>
+</html>
